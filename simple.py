@@ -15,6 +15,8 @@ else:
         flag = False
 
 if flag == True and n not in {1,2}:                                        # проверям переменную-переключатель и выводим ответ
-    print(f'Число {n} простое число')
+    print('Y')
+#    print(f'Число {n} простое число')
 elif flag == False and n not in {1,2}:
-    print(f'Число {n} составное число')
+#    print(f'Число {n} составное число')
+    print('N')
